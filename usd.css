@@ -233,8 +233,9 @@
   .div-block {
     max-width: 62vw;
     padding-top: 6vw;
-    background-position: 109% 5%;
-    background-size: 25vw;
+    background-position: 45vw -7vw;
+    background-size: 51vw;
+    background-attachment: fixed;
   }
 
   .heading.the {
@@ -287,7 +288,8 @@
     padding-top: 8vw;
     padding-bottom: 3vw;
     padding-left: 3vw;
-    background-size: 37vw;
+    background-position: 41vw -23vw;
+    background-size: 90vw;
   }
 
   .heading.the {
