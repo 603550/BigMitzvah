@@ -221,7 +221,7 @@
   padding-bottom: 0px;
 }
 
-#payment-element.StripeElement {
+div#payment-element.StripeElement {
   padding-top: 2vw;
 }
 
