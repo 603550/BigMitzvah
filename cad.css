@@ -138,6 +138,7 @@
 .radio-toolbar {
   display:flex;
   margin-bottom: 1vw;
+  margin-top: 1vw;
 }
 .radio-toolbar input[type="radio"] {
   opacity: 0;
