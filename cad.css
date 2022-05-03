@@ -123,7 +123,7 @@
 }
 .radio-toolbar {
   display:flex;
-  margin-bottom: 1vw;
+  margin-top: 1vw;
 }
 .radio-toolbar input[type="radio"] {
   opacity: 0;
@@ -219,7 +219,6 @@
   margin-right: 0.5vw;
   margin-left: 1vw;
   padding-bottom: 0px;
-  margin-bottom:1vw;
 }
 
 @media screen and (max-width: 767px) {
