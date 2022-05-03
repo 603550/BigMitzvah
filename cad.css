@@ -221,6 +221,10 @@
   padding-bottom: 0px;
 }
 
+.StripeElement {
+  padding-top:2vw;
+
+}
 @media screen and (max-width: 767px) {
   .div-block {
     max-width: 62vw;
