@@ -342,7 +342,12 @@
     margin-left: 3vw;
     font-size: 0px;
   }
+  
+#payment-element {
+  padding-top: 2vw;
+  }
 }
+
 
 @font-face {
   font-family: 'Gothambook';
