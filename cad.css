@@ -221,6 +221,10 @@
   padding-bottom: 0px;
 }
 
+#payment-element.StripeElement {
+  padding-top: 2vw;
+}
+
 @media screen and (max-width: 767px) {
   .div-block {
     max-width: 62vw;
@@ -343,9 +347,6 @@
     font-size: 0px;
   }
   
-#payment-element {
-  padding-top: 2vw;
-  }
 }
 
 
