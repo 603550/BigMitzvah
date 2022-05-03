@@ -98,6 +98,7 @@
 }
 
 .donation-block {
+  padding-top:2vw;
   display: block;
   width: 100%;
   max-width: 47vw;
