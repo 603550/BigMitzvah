@@ -98,7 +98,7 @@
 }
 
 .donation-block {
-  padding-top:2vw;
+  padding-top:3vw;
   display: block;
   width: 100%;
   max-width: 47vw;
@@ -123,7 +123,7 @@
 }
 .radio-toolbar {
   display:flex;
-  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 .radio-toolbar input[type="radio"] {
   opacity: 0;
@@ -222,7 +222,7 @@
 }
 
 .StripeElement {
-  padding-top:2vw;
+  padding-top:3vw;
 
 }
 @media screen and (max-width: 767px) {
