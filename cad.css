@@ -28,7 +28,7 @@
 
 .heading.daily {
   font-size: 15vw;
-  line-height: 11vw;
+  line-height: 13vw;
   font-weight: 900;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .donation-block {
-  padding-top:3vw;
+  padding:3vw 1vw;
   display: block;
   width: 100%;
   max-width: 47vw;
@@ -244,7 +244,7 @@
 
   .heading.daily {
     font-size: 18vw;
-    line-height: 14vw;
+    line-height: 16vw;
   }
 
   .heading.give {
@@ -292,17 +292,17 @@
 
   .heading.the {
     font-size: 14vw;
-    line-height: 14vw;
+    line-height: 12vw;
   }
 
   .heading.daily {
     font-size: 28vw;
-    line-height: 18vw;
+    line-height: 26vw;
   }
 
   .heading.give {
     font-size: 28vw;
-    line-height: 27vw;
+    line-height: 26vw;
   }
 
   .text-block {
