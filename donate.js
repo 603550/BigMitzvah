@@ -11,8 +11,8 @@ const appearance = {
   theme: 'flat',
   variables: {
     fontFamily: ' "Gill Sans", sans-serif',
-    fontLineHeight: '1.5',
-    borderRadius: '10px',
+    fontLineHeight: '1.0',
+    borderRadius: '5px',
     colorBackground: '#F6F8FA',
     colorPrimaryText: '#262626'
   },
@@ -20,10 +20,10 @@ const appearance = {
     '.Block': {
       backgroundColor: 'var(--colorBackground)',
       boxShadow: 'none',
-      padding: '12px'
+      padding: '10px'
     },
     '.Input': {
-      padding: '12px'
+      padding: '10px'
     },
     '.Input:disabled, .Input--invalid:disabled': {
       color: 'lightgray'
