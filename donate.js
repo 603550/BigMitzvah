@@ -6,7 +6,7 @@ window.onload = function(){
         
 
 const appearance = {
-  labels: 'floating',
+
   theme: 'flat',
   variables: {
     fontFamily: ' "Gill Sans", sans-serif',
