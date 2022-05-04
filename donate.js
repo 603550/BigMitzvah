@@ -14,7 +14,7 @@ const appearance = {
 
     rules: {
       '.Tab': {
-        border: '1px solid #E0E6EB',
+        border: '1px solid ##000',
         boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(18, 42, 66, 0.02)',
       },
 
@@ -23,7 +23,7 @@ const appearance = {
       },
 
       '.Tab--selected': {
-        borderColor: '#E0E6EB',
+        borderColor: '#A7C6C1',
         boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(18, 42, 66, 0.02), 0 0 0 2px var(--colorPrimary)',
       },
 
