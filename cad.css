@@ -12,6 +12,12 @@
   background-attachment: scroll;
 }
 
+.StripeElement{
+  max-width: 47vw;
+  margin: auto;
+  padding: 0 2vw;
+}
+
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -236,6 +242,13 @@
     background-position: 109% 5%;
     background-size: 25vw;
   }
+  
+  
+  .StripeElement{
+    max-width: 62vw;
+    margin: auto;
+    padding: 0 2vw;
+  }
 
   .heading.the {
     font-size: 12vw;
@@ -290,6 +303,12 @@
     background-size: 37vw;
   }
 
+  .StripeElement{
+    max-width: 478px;
+    margin: auto;
+    padding: 0 2vw;
+  }
+  
   .heading.the {
     font-size: 14vw;
     line-height: 12vw;
