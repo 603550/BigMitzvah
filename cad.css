@@ -232,8 +232,12 @@
 }
 
 .StripeElement {
-  padding-top:3vw;
+  padding-top:1vw;
 
+}
+
+#payment-form {
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .div-block {
