@@ -12,6 +12,12 @@
   background-attachment: scroll;
 }
 
+#submit {
+  background-color: black;
+  padding: 1vw 2vw;
+  margin: 10px;
+}
+
 .StripeElement{
   max-width: 47vw;
   margin: auto;
