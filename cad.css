@@ -12,7 +12,7 @@
   background-attachment: scroll;
 }
 
-.StripeElement{
+div#payment-element.StripeElement{
   max-width: 47vw;
   margin: auto;
   padding: 0 2vw;
