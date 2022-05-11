@@ -12,6 +12,12 @@
   background-attachment: scroll;
 }
 
+.StripeElement{
+  max-width: 47vw;
+  margin: auto;
+  padding: 0 2vw;
+}
+
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -226,8 +232,12 @@
 }
 
 .StripeElement {
-  padding-top:3vw;
+  padding-top:1vw;
 
+}
+
+#payment-form {
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .div-block {
@@ -237,7 +247,13 @@
     background-size: 51vw;
     background-attachment: fixed;
   }
-
+  
+  .StripeElement{
+    max-width: 62vw;
+    margin: auto;
+    padding: 0 2vw;
+  }
+  
   .heading.the {
     font-size: 12vw;
     line-height: 10vw;
@@ -291,7 +307,13 @@
     background-position: 41vw -23vw;
     background-size: 90vw;
   }
-
+  
+  .StripeElement{
+    max-width: 478px;
+    margin: auto;
+    padding: 0 2vw;
+  }
+  
   .heading.the {
     font-size: 14vw;
     line-height: 12vw;
