@@ -193,11 +193,13 @@
 
 .radio-toolbar label:hover {
   background-color: #ffffff;
+  touch-action: manipulation;
 }
 
 .radio-toolbar input[type="radio"]:checked + label {
     background-color: #ffffff;
     color:#000;
+  touch-action: manipulation;
 }
 
 .button {
