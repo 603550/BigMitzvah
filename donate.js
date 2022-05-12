@@ -10,7 +10,7 @@ const appearance = {
   labels: 'floating',
   theme: 'flat',
   variables: {
-    fontFamily: ' "Gill Sans", sans-serif',
+    fontFamily: ' "Gotham", sans-serif',
     fontLineHeight: '1.0',
     borderRadius: '5px',
     colorBackground: '#F6F8FA',
@@ -35,13 +35,12 @@ const appearance = {
       backgroundColor: '#a7c6c150'
     },
     '.Tab:hover': {
-      border: 'none',
       boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
     },
     '.Tab--selected, .Tab--selected:focus, .Tab--selected:hover': {
       border: 'none',
       backgroundColor: '#a7c6c1',
-      boxShadow: '0 0 0 1.5px var(--colorPrimaryText), 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
+      boxShadow: '0 0 0 1.5px var(--colorPrimaryText), 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(0, 0, 0, 0.04)'
     },
     '.Label': {
       fontWeight: '500'
