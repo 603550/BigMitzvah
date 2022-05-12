@@ -18,7 +18,7 @@ const appearance = {
   },
   rules: {
     '.Block': {
-      backgroundColor: 'var(--colorBackground)',
+      backgroundColor: '#a7c6c150',
       boxShadow: 'none',
       padding: '10px'
     },
