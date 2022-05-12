@@ -6,6 +6,7 @@ const appearance = {
 
     rules: {
       '.Tab': {
+        background-color: #a7c6c150;
         border: '1px solid #a7c6c1',
         boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(18, 42, 66, 0.02)',
       },
