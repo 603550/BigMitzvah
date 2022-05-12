@@ -12,6 +12,18 @@
   background-attachment: scroll;
 }
 
+.button_submit {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #a7c6c1;
+    font-family: Gotham, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 15px;
+    margin: 12px; 
+}
+
 .StripeElement{
   max-width: 47vw;
   margin: auto;
