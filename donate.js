@@ -31,6 +31,7 @@ const appearance = {
     '.Tab': {
       padding: '10px 12px 8px 12px',
       border: 'none'
+      background-color: #a7c6c150;
     },
     '.Tab:hover': {
       border: 'none',
