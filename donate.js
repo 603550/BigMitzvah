@@ -23,7 +23,8 @@ const appearance = {
       padding: '10px'
     },
     '.Input': {
-      padding: '10px'
+      padding: '10px',
+      backgroundColor: '#a7c6c150'
     },
     '.Input:disabled, .Input--invalid:disabled': {
       color: 'lightgray'
@@ -39,7 +40,7 @@ const appearance = {
     },
     '.Tab--selected, .Tab--selected:focus, .Tab--selected:hover': {
       border: 'none',
-      backgroundColor: '#fff',
+      backgroundColor: '#a7c6c1',
       boxShadow: '0 0 0 1.5px var(--colorPrimaryText), 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
     },
     '.Label': {
