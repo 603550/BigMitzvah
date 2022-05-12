@@ -18,13 +18,13 @@ const appearance = {
   },
   rules: {
     '.Block': {
-      backgroundColor: '#a7c6c150',
+      backgroundColor: '#a7c6c130',
       boxShadow: 'none',
       padding: '10px'
     },
     '.Input': {
       padding: '10px',
-      backgroundColor: '#a7c6c150'
+      backgroundColor: '#a7c6c130'
     },
     '.Input:disabled, .Input--invalid:disabled': {
       color: 'lightgray'
@@ -36,7 +36,7 @@ const appearance = {
     '.Tab': {
       padding: '10px 12px 8px 12px',
       border: 'none',
-      backgroundColor: '#a7c6c150'
+      backgroundColor: '#a7c6c130'
     },
     '.Tab:hover': {
       boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
