@@ -30,10 +30,6 @@
   padding: 0 2vw;
 }
 
-.Input:focus, .p-Input--focused {
-  border: 1px solid #000!important;
-}
-
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
