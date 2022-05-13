@@ -1,7 +1,6 @@
 .invisible {
   display: none;
 }
-
 #other:checked~ .price_input {
   display: flex;
   width: 34%;
@@ -9,7 +8,6 @@
   margin-left: 1vw;
   padding-bottom: 5px;
 }
-
 #other:checked~ .other_button {
   display: none;
 }
@@ -21,6 +19,8 @@
   font-size: 1.5vw;
   font-weight: 600;
   padding: 9px 15px;
+  text-align: center;
+  background-color: #A7C6C1!important;
 }
 
 .div-block {
@@ -281,6 +281,9 @@
   text-align: center;
 }
 @media screen and (max-width: 767px) {
+ .input_box {
+  font-size: 2.5vw;}
+  
   .div-block {
     max-width: 62vw;
     padding-top: 6vw;
@@ -340,6 +343,9 @@
 }
 
 @media screen and (max-width: 479px) {
+ .input_box {
+  font-size: 4vw;}
+  
   .div-block {
     max-width: 478px;
     padding-top: 8vw;
