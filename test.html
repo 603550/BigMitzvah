@@ -1,3 +1,4 @@
+<apex:page id="pg" standardStylesheets="false" controller="BigMitzvahCharityController" showHeader="false" sidebar="false" applyBodyTag="false" applyHtmlTag="false">
     <html>
   <head>
     <meta charset="utf-8"/>
@@ -16,8 +17,8 @@
              {background-color: {!campaign.HEX_Value__c}!important;}-->
     </style>
       <script src="https://603550.github.io/BigMitzvah/donate.js" defer="true"/>
-            <!--
-          <script>
+            
+      <!--    <script>
                 var stripe;
                 var elements;
                window.onload = function(){
@@ -124,7 +125,19 @@
     <input class="input_box" type="number" value="250"></input>
     </div>
     </div> 
-<div class="p-GridCell p-GridCell--12 p-GridCell--sm6">
+    </div>
+  </div> 
+
+
+ <!-- Display a payment form -->
+</apex:form>
+
+
+
+
+    <form id="payment-form">
+     <div id="payment-element">
+         <div class="p-GridCell p-GridCell--12 p-GridCell--sm6">
   <div data-field="Name" class="p-Field p-Field--labelResting">
     <label class="p-FieldLabel Label Label--empty p-FieldLabel--floating Label--resting" for="Field-nameInput">Name</label>
     <div>
@@ -144,16 +157,6 @@
       </div>
     </div>
   </div>
-</div>
-
-    </div>
-  </div> 
- <!-- Display a payment form -->
-</apex:form>
-
-
-
-
 
 
 
@@ -169,3 +172,4 @@
       </form>
 </body>
 </html>
+</apex:page>
