@@ -1,0 +1,169 @@
+    <html>
+  <head>
+    <meta charset="utf-8"/>
+  <title>BigMitzvah.org</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <script src="https://js.stripe.com/v3/"/>
+    <link rel="stylesheet" href="https://603550.github.io/BigMitzvah/styles.css"/>
+    <link rel="stylesheet" href="{!cssUrl}"/>
+ 
+    <style>
+        .div-block 
+             {background-color: {!campaign.HEX_Value__c}!important;}
+        .radio-toolbar label:hover 
+             {background-color: {!campaign.HEX_Value__c}!important;}
+        <!--.radio-toolbar input[type="radio"]:checked + label 
+             {background-color: {!campaign.HEX_Value__c}!important;}-->
+    </style>
+      <script src="https://603550.github.io/BigMitzvah/donate.js" defer="true"/>
+            <!--
+          <script>
+                var stripe;
+                var elements;
+               window.onload = function(){
+               stripe = Stripe('{!campaign.charity__r.Public_Key__c}');
+               const appearance = {
+                   labels: 'floating',
+                   theme: 'flat',
+                   variables: {
+                       fontFamily: ' "Gill Sans", sans-serif',
+                       fontLineHeight: '1.0',
+                       borderRadius: '5px',
+                       colorBackground: '#F6F8FA',
+                       colorPrimaryText: '#262626'
+                   },
+                   rules: {
+                       '.Block': {
+                           backgroundColor: 'var(--colorBackground)',
+                           boxShadow: 'none',
+                           padding: '10px'
+                       },
+                       '.Input': {
+                           padding: '10px'
+                       },
+                       '.Input:disabled, .Input--invalid:disabled': {
+                           color: 'lightgray'
+                       },
+                       '.Tab': {
+                           padding: '10px 12px 8px 12px',
+                           border: 'none'
+                       },
+                       '.Tab:hover': {
+                           border: 'none',
+                           boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
+                       },
+                       '.Tab--selected, .Tab--selected:focus, .Tab--selected:hover': {
+                           border: 'none',
+                           backgroundColor: '#fff',
+                           boxShadow: '0 0 0 1.5px var(--colorPrimaryText), 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(18, 42, 66, 0.04)'
+                       },
+                       '.Label': {
+                           fontWeight: '500'
+                       }
+                   }
+               };
+                console.log('{!paymentIntentSecret}');
+               elements = stripe.elements({
+                   clientSecret: '{!paymentIntentSecret}', appearance
+               });
+                   
+               var paymentElement = elements.create("payment");
+               console.log(paymentElement);
+               paymentElement.mount("#payment-element");
+           }
+                   
+                   function confirmPayment(){
+                        var response = stripe.confirmPayment({
+                            elements,
+                            confirmParams: {
+                                return_url: 'https://603550-org-developer-edition.na212.force.com/tzdakah/BigMitzvahCharitySuccess?qr={!campaign.QR__c}'
+                            },
+                        });
+                        console.log(response);
+                   }
+           </script>-->
+          
+</head>
+<body class="body">
+    <apex:form id="frm">
+        <apex:actionFunction action="{!updateStripeAmount}" name="updateStripeAmount" reRender="frm">
+            <apex:param assignTo="{!amount}" value="" id="amt" name="amt"/>    
+        </apex:actionFunction>
+  <div class="section wf-section">
+    <div class="div-block">
+      <div class="title-block">
+        <h1 class="heading the">{!campaign.H1__c}</h1>
+        <h1 class="heading daily">{!campaign.H2__c}</h1>
+        <h1 class="heading give">{!campaign.H3__c}</h1>
+          <div class="logo-block"><img src="{!campaign.Logo_URL__c}" loading="lazy" alt="BigMitzvah.org" class="image-2"/></div>
+      </div>
+      <div class="text-block">Donations are made to {!campaign.Charity__r.Name}</div>
+      <div class="text-block bigmitzvah">Powered by <strong>BigMitzvah.org</strong></div>
+    </div>
+  </div>
+    <div class="section wf-section">
+      <div class="donation-block"><img src="{!$Resource.bigmitzvah + '/bigmitzvah/images/check.png'}" loading="lazy" alt="BigMitzvah.org" class="image-3"/>
+      <div class="heading-2">Donation</div>
+      <div class="heading-3">({!campaign.Currency__c})</div>
+    <div class="radio-toolbar">
+     <input type="radio" id="amount1" name="radio" value="{!campaign.Amount1__c}" checked="{!campaign.Amount1__c==amount}" onclick="updateStripeAmount('{!campaign.Amount1__c}');return false;" ></input>
+     <label for="amount1" style="{!IF(campaign.Amount1__c==amount,'background-color:' +campaign.HEX_Value__c+'!important;','')}">${!campaign.Amount1__c}</label>
+     <input type="radio" id="amount2" name="radio" value="{!campaign.Amount2__c}" checked="{!campaign.Amount2__c==amount}" onclick="updateStripeAmount('{!campaign.Amount2__c}');return false;"></input>
+     <label for="amount2" style="{!IF(campaign.Amount2__c==amount,'background-color:' +campaign.HEX_Value__c+'!important;','')}">${!campaign.Amount2__c}</label>
+     <input type="radio" id="amount3" name="radio" value="{!campaign.Amount3__c}" checked="{!campaign.Amount3__c==amount}" onclick="updateStripeAmount('{!campaign.Amount3__c}');return false;"></input>
+     <label for="amount3" style="{!IF(campaign.Amount3__c==amount,'background-color:' +campaign.HEX_Value__c+'!important;','')}">${!campaign.Amount3__c}</label>
+    </div>
+    <div class="radio-toolbar">
+     <input type="radio" id="amount4" name="radio" value="{!campaign.Amount4__c}" checked="{!campaign.Amount4__c==amount}" onclick="updateStripeAmount('{!campaign.Amount4__c}');return false;"></input>
+     <label for="amount4" style="{!IF(campaign.Amount4__c==amount,'background-color:' +campaign.HEX_Value__c+'!important;','')}">${!campaign.Amount4__c}</label>
+     <input type="radio" id="amount5" name="radio" value="{!campaign.Amount5__c}" checked="{!campaign.Amount5__c==amount}" onclick="updateStripeAmount('{!campaign.Amount5__c}');return false;"></input>
+        <label for="amount5" style="{!IF(campaign.Amount5__c==amount,'background-color:' +campaign.HEX_Value__c+'!important;','')}">${!campaign.Amount5__c}</label>
+     <input type="radio" id="other" name="radio" value="other"></input>
+<label for="other">Other</label> 
+      <div class="invisible price_input">
+    <input class="input_box" type="number" value="250"></input>
+    </div>
+    </div>  
+    </div>
+  </div> 
+ <!-- Display a payment form -->
+</apex:form>
+
+<div class="p-GridCell p-GridCell--12 p-GridCell--sm6">
+  <div data-field="Name" class="p-Field p-Field--labelResting">
+    <label class="p-FieldLabel Label Label--empty p-FieldLabel--floating Label--resting" for="Field-nameInput">Name</label>
+    <div>
+      <div class="p-Input">
+          <input type="text" name="Name" id="Field-nameInput" placeholder="Your name" inputmode="text" aria-invalid="false" aria-required="true" class="p-Input-input Input Input--empty" value=""></input>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-GridCell p-GridCell--12 p-GridCell--sm6">
+  <div data-field="Email" class="p-Field p-Field--labelResting">
+    <label class="p-FieldLabel Label Label--empty p-FieldLabel--floating Label--resting" for="Field-emailInput">Email</label>
+    <div>
+      <div class="p-Input">
+          <input type="text" name="Email" id="Field-emailInput" placeholder="Your@email.com" inputmode="text" aria-invalid="false" aria-required="true" class="p-Input-input Input Input--empty" value=""></input>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<form id="payment-form">
+     <div id="payment-element">
+      </div>
+       <button class="submit_button" onclick="confirmPayment();return false;">
+        <div class="spinner hidden" id="spinner"></div>
+        <span id="button-text">Pay now</span>
+       </button>
+      <div class="hidden" id="payment-message"></div>
+      </form>
+</body>
+</html>
