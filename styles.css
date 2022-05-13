@@ -37,6 +37,35 @@
 .w-icon-file-upload-icon:before {
   content: "\e903";
 }
+.invisible {
+  display: none;
+}
+#other:checked~ .price_input {
+  display: flex;
+  width: 34%;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding-bottom: 5px;
+}
+#other:checked~ .other_button {
+  display: none;
+}
+
+.input_box {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-family: Gotham, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding: 9px 15px;
+  text-align: center;
+  background-color: #A7C6C1!important;
+}
+
+
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
