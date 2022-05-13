@@ -21,7 +21,8 @@
     font-size: 18px;
     font-weight: 600;
     padding: 9px 15px;
-    margin: 12px; 
+    margin: 12px;
+    text-decoration: none;
 }
 
 .StripeElement{
