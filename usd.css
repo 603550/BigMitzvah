@@ -255,8 +255,8 @@
 }
 
 .radio-toolbar input[type="radio"]:checked + label {
-    background-color: #ffffff;
-    color:#000;
+    background-color: #a7c6c1;
+    color: #000;
 }
 
 .button {
