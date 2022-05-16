@@ -8,8 +8,9 @@
    }
 
    ::placeholder {
-   color: #333;
+   color: #333!important;
    opacity: 1;}
+
   .Input:focus,~.input {display:none;}
   .p-Input-input {
    display: block;
