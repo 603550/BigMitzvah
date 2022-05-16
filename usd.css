@@ -317,9 +317,8 @@
   .div-block {
     max-width: 62vw;
     padding-top: 6vw;
-    background-position: 45vw -7vw;
+    background-position: 27vw -7vw;
     background-size: 51vw;
-    background-attachment: fixed;
   }
   
   .StripeElement{
