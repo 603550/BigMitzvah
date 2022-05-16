@@ -9,7 +9,7 @@
 }
 
 <!-- INPUT BACKGROUND COLOR -->
-.Input, .p-FauxInput {
+.Input, .p-FauxInput,.p-Field--labelResting .p-Input-input {
     background-color: #A7C6C130!important;
 }
 
