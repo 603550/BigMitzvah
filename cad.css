@@ -1,3 +1,25 @@
+<!-- MAIN BACKGROUND COLOR -->
+.div-block {
+    background-color: #A7C6C1!important;
+}
+
+<!-- SELECTED BUTTON COLOR -->
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #A7C6C1!important;
+}
+
+<!-- INPUT BACKGROUND COLOR -->
+.Input, .p-FauxInput {
+    background-color: #A7C6C130!important;
+}
+
+<!-- BUTTON BACKGROUND COLOR -->
+.submit_button {
+    background-color: #A7C6C1!important;
+}
+
+
+
 .invisible {
   display: none;
 }
