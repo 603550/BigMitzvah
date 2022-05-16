@@ -1,43 +1,31 @@
 .invisible {
   display: none;
 }
- .Input, .p-FauxInput {
+   .Input:focus, .p-Input--focused {
+   outline: #000;
+   box-shadow: 0 0 0 1.5px #000, 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(0, 0, 0, 0.04);
+   border: none;
+   }
+
+   ::placeholder {
+   color: #333;
+   opacity: 1;}
+  .Input:focus,~.input {display:none;}
+  .p-Input-input {
+   display: block;
+   width: 100%;
+   }
+
+   .Input, .p-FauxInput {
     width: 100%;
-    padding: 30px 10px 10px;
+    padding: 20px 10px 20px;
     background-color: #a7c6c130;
     border-radius: 5px;
     transition: background 0.15s ease, border 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
     border: none;
+    font-size:16px;
     margin-bottom: 10px;
    }
-   .p-Field--labelResting .p-FieldLabel {
-    -webkit-transform: var(--c-labelRestingTransform)!important;
-    -ms-transform: var(--c-labelRestingTransform)!important;
-    transform: var(--c-labelRestingTransform)!important;
-}
-.Label--resting {
-    font-size: var(--fontSizeBase);
-}
-.Label {
-    margin-bottom: var(--p-spacing1);
-    font-size: var(--fontSizeSm);
-    font-weight: 500;
-    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
-.p-FieldLabel--floating {
-    position: absolute;
-    z-index: 1;
-    pointer-events: none;
-    will-change: transform;
-    font-size: var(--c-labelRestingFontSize)!important;
-    -webkit-transform-origin: top left!important;
-    -ms-transform-origin: top left!important;
-    transform-origin: top left!important;
-    margin-left: var(--c-inputFloatingMarginLeft)!important;
-}
-.p-FieldLabel {
-    display: block;
-}
 
 #other:checked~ .price_input {
   display: flex;
