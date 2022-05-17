@@ -1,6 +1,9 @@
 .invisible {
   display: none;
 }
+   .input_box::placeholder {
+   color: #000;
+   }
    .Input:focus, .p-Input--focused {
    box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%), 0 0 0 1px hsla(211, 100%, 50%, 50%);
    outline: 0;
