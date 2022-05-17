@@ -6,6 +6,9 @@
    box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%), 0 0 0 1px hsla(211, 100%, 50%, 50%);
    outline: 0;
    }
+   .input_box:focus {
+   outline:0;
+   }
 
    ::placeholder {
    color: #333!important;
