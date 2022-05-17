@@ -2,7 +2,8 @@
   display: none;
 }
    .Input:focus, .p-Input--focused {
-   box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%);, 0 0 0 1px hsla(211, 100%, 50%, 50%)!important;
+   box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%), 0 0 0 1px hsla(211, 100%, 50%, 50%);
+   outline: 0;
    }
 
    ::placeholder {
@@ -22,7 +23,6 @@
     border-radius: 5px;
     transition: background 0.15s ease, border 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
     border: none;
-     box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%);, 0 0 0 1px hsla(211, 100%, 50%, 50%)!important;
     font-size:16px;
     margin-bottom: 10px;
    }
