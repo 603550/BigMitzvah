@@ -1,10 +1,10 @@
 .invisible {
   display: none;
 } 
-.Input:focus, .p-Input--focused {
-   outline: #000!important;
-   box-shadow: 0 0 0 1.5px #000, 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 7px rgba(0, 0, 0, 0.04)!important;
-   border: none;
+
+   .Input:focus, .p-Input--focused {
+   box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%), 0 0 0 1px hsla(211, 100%, 50%, 50%);
+   outline: 0;
    }
 
    ::placeholder {
