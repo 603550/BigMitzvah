@@ -2,7 +2,7 @@
   display: none;
 }
    .Input:focus, .p-Input--focused {
-   box-shadow: 0 0 0 1.5px #000, 0 0 0 3px hsla(211, 100%, 50%, 25%);, 0 0 0 1px hsla(211, 100%, 50%, 50%)!important;
+   box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%);, 0 0 0 1px hsla(211, 100%, 50%, 50%)!important;
    border: none!important;
    outline: 0;
    }
