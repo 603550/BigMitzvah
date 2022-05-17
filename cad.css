@@ -6,8 +6,8 @@
    outline: 0;
    }
    .input_box:focus {
-   outline:0;
-   }
+    outline:0!important;
+    }
    ::placeholder {
    color: #333!important;
    opacity: 1;}
