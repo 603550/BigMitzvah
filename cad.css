@@ -31,6 +31,7 @@ p {
    .Input:focus, .p-Input--focused {
    box-shadow: 0 0 0 3px hsla(211, 100%, 50%, 25%), 0 0 0 1px hsla(211, 100%, 50%, 50%);
    outline: 0;
+       -webkit-appearance: none;
    }
    .input_box:focus {
     outline:0!important;
@@ -54,6 +55,7 @@ p {
     border: none;
     font-size:16px;
     margin-bottom: 10px;
+       -webkit-appearance: none;
    }
 
 #other:checked~ .price_input {
@@ -360,6 +362,7 @@ a:active {
 
 #payment-form {
   text-align: center;
+    -webkit-appearance: none;
 }
 @media screen and (max-width: 767px) {
  .input_box {
