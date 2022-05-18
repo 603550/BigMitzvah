@@ -97,28 +97,28 @@ p {
 }
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gotham-Black.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gotham-Bold.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gotham-Thin.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Thin.otf') format('opentype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gotham-Light.otf') format('opentype'), url('../fonts/Gotham-XLight.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Light.otf') format('opentype'), url('https://603550.github.io/BigMitzvah/fonts/fonts/Gotham-XLight.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
