@@ -461,14 +461,14 @@
 
 @font-face {
   font-family: 'Gotham';
-  src: url('https://storage.googleapis.com/cdn.tzdakah.org/fonts/Gotham-Black.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gotham';
-  src: url('https://storage.googleapis.com/cdn.tzdakah.org/fonts/Gotham-UltraItalic.otf') format('opentype'), url('https://603550.github.io/BigMitzvah/fonts/Gotham-BookItalic.otf') format('opentype');
+  src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-UltraItalic.otf') format('opentype'), url('https://603550.github.io/BigMitzvah/fonts/Gotham-BookItalic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
