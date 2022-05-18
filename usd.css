@@ -360,6 +360,7 @@ a:active {
 
 #payment-form {
   text-align: center;
+  -webkit-appearance: none;
 }
 @media screen and (max-width: 767px) {
   .input_box {
