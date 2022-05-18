@@ -90,6 +90,9 @@ a:active {
   color: #FFFFFF;
 }
 
+.Message_table {
+  padding: 0 5vw;
+}
 
 .input_box {
   width: 100%;
