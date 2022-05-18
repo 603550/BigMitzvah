@@ -23,8 +23,8 @@ body {
   padding-bottom: 20px;
 }
 .Appear {
-  font-weight: 200;
-  color: #555;
+  font-weight: 300;
+  color: #222;
 }
 .Check {
     padding: 50px 0 0;
@@ -68,7 +68,7 @@ label {
     text-align: left;
     font-family: Gotham, sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     padding-bottom: 5px;
 }
 .Column {
@@ -88,7 +88,7 @@ label {
 h3,p {
   margin:0;
   color: #111;
-  font-weight: 200;
+  font-weight: 300;
   font-family: Gotham, sans-serif;
   padding-bottom: 2px;
 }
