@@ -8,7 +8,7 @@ body {
   justify-content: center;
 }
 .Image-2 {
-    height: 180px;
+    height: 100px;
 }
 .Outer, .Message, .Appear, .Statement {
   display: flex;
