@@ -71,25 +71,6 @@ p {
   display: none;
 }
 
-/* unvisited link */
-a:link {
-  color: #FFFFFF;
-}
-
-/* visited link */
-a:visited {
-  color: #FFFFFF;
-}
-
-/* mouse over link */
-a:hover {
-  color: #F7F8FA;
-}
-
-/* selected link */
-a:active {
-  color: #FFFFFF;
-}
 .Message_table {
   padding: 0 5vw;
 }
