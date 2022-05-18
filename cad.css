@@ -46,22 +46,22 @@
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* mouse over link */
 a:hover {
-  color: grey;
+  color: #F7F8FA;
 }
 
 /* selected link */
 a:active {
-  color: white;
+  color: #FFFFFF;
 }
 
 
