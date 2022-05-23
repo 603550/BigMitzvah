@@ -72,7 +72,7 @@ label {
 }
 .Column {
   float: left;
-  width: 70%;
+  width: 100%;
 }
 .Price_Column {
   float: left;
