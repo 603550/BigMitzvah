@@ -84,6 +84,10 @@ label {
   padding-bottom: 10px;
   display: flex;
 }
+.Message_table {
+  padding: 0 5vw;
+}
+
 h3,p {
   margin:0;
   color: #111;
