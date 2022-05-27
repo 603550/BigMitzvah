@@ -96,6 +96,20 @@ h3,p {
 p {
   font-size: 14px;
 }
+media screen and (max-width: 479px)
+.Outer{
+    max-width: 478px;
+    margin: auto;
+    padding: 0 2vw;
+}
+
+media screen and (max-width: 767px)
+.Outer{
+    max-width: 62vw;
+    margin: auto;
+    padding: 0 2vw;
+}
+
 @font-face {
   font-family: 'Gotham';
   src: url('https://603550.github.io/BigMitzvah/fonts/Gotham-Black.otf') format('opentype');
